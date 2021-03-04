@@ -1,0 +1,9 @@
+.rendered-item{
+    border: 1px solid black;
+}
+.rendered-title{
+    font-weight: bold;
+}
+.rendered-content{
+    color: gray;
+}
