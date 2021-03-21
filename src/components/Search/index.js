@@ -44,7 +44,8 @@ const Search = () => {
   });
 
   return (
-    <div>
+    <div className="search">
+      <h2>Wikipedia Pro</h2>
       <label>Enter term:</label>
       <br />
       <input
@@ -54,6 +55,7 @@ const Search = () => {
           setTerm(e.target.value);
         }}
       />
+
       {renderedItems}
     </div>
   );
